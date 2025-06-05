@@ -8,10 +8,10 @@ const Landing = () => {
             <MainDiv>
                 <WelcomePara>Welcome to PopX</WelcomePara>
                 <WelcomeGreet>Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit,</WelcomeGreet>
-                <CreateBtn onClick={()=>navigate("/login")}>
+                <CreateBtn onClick={()=>navigate("/register")}>
                     Create Account
                 </CreateBtn>
-                <LoginBtn onClick={()=>navigate("/register")}>
+                <LoginBtn onClick={()=>navigate("/login")}>
                     Already Registered? Login
                 </LoginBtn>
             </MainDiv>

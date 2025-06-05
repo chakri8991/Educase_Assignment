@@ -1,15 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
 
-export const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Rubik', sans-serif;
-    background: #F7F8F9;
-  }
-`;
 
 export const MainDiv = styled.div`
   width: 375px;
@@ -43,7 +33,7 @@ export const EmailLabel = styled.label`
     color: #6C25FF;
     margin-left: 15px;
     position: absolute;
-    top: 294px;
+    top: 277px;
     background:#F7F8F9;
     width: 103px;
 
@@ -67,7 +57,7 @@ export const Passlabel = styled.label`
     color: #6C25FF;
     margin-left: 15px;
     position: absolute;
-    top: 342px;
+    top: 325px;
     background:#F7F8F9;
     width: 103px;
 

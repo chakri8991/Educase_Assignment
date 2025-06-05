@@ -44,6 +44,7 @@ text-align: left;
 font: normal normal normal 18px/26px Rubik;
 letter-spacing: 0px;
 color: #1D2226;
+opacity: 0.6;
 `
 
 export const CreateBtn=styled.button`

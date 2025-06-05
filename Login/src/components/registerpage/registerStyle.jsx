@@ -1,5 +1,4 @@
 import { styled } from "styled-components"
-import { MainDiv } from "../loginScreen/loginStyles"
 
 export const MainGg=styled.div`
 top: 0px;
