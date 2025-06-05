@@ -43,11 +43,12 @@ export const EmailInput = styled.input`
   margin-top: 8px;
   width: 335px;
   height: 40px;
-  border: 1px solid #CBCBCB;
+  border: 1px solid ${props=>(props.hasError ? "red" : "#CBCBCB")};
   border-radius: 6px;
   padding: 8px;
   box-sizing: border-box;
   padding-left: 18px;
+  outline:none
 
 `;
 
@@ -68,11 +69,12 @@ export const PassInput = styled.input`
   margin-top: 8px;
     width: 335px;
   height: 40px;
-  border: 1px solid #CBCBCB;
+  border: 1px solid ${props=>(props.hasError ? "red" : "#CBCBCB")};
   border-radius: 6px;
   padding: 8px;
   box-sizing: border-box;
   padding-left: 18px;
+  outline:none;
 
 `;
 
