@@ -8,8 +8,8 @@ const AccountCom=()=>{
             <HeadingEle>Account Setting</HeadingEle>
             <ProfileMainBg>
                 <div>
-                    <ProfileEle src='./src/assets/profilepic.png' alt="Profile Pic"/>
-                    <IconImg src="./src/assets/camicon.png" alt="Icon"/>
+                    <ProfileEle src='/profilepic.png' alt="Profile Pic"/>
+                    <IconImg src="/camicon.png" alt="Icon"/>
                 </div>
                 <ProfileName>
                     <ProfileNameEle>Marry Doe</ProfileNameEle>
